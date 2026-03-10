@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+!frontend/src/lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment Variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Agent & Temporary Files
+OPTIMIZED_PROMPT.md
+SUMMARY.md
+.agent/
+*_readable.txt
+*_frames/
+logs/
+test.json
+
+# IDE
+.vscode/
+.idea/
+.obsidian/
+
+# Data
+data/
+src/data/output/grid_search
+!src/data/output/grid_search/capture_threshold_gridSearch.png
+!src/data/output/grid_search/grid_search_report.md
+!src/data/output/grid_search/grid_search_results.json
+*.db
+
+# Docs
+"장면 변환 프레임 캡처.md"
+
+# capture benchmark
+temp_bench/
+.gemini/
+
+# Node.js
+node_modules/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.development
+frontend/.env.production
+# Local demo upload artifacts
+demo_assets/uploads/
+demo_assets/demo_uploads.json
+*.local
+*.tmp
+
